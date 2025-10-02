@@ -1,10 +1,10 @@
-# Exercice Pratique - Local vs Cloud
+# Exercice pratique - local vs cloud
 
 ## Module I / III - Section C : Infrastructure et localisation
 
 ---
 
-## Exercice 4 : Local vs Cloud - Expérience pratique (30 min)
+## Exercice 4 : Local vs cloud - Expérience pratique (30 min)
 
 ### Objectif pédagogique
 
