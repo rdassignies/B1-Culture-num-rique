@@ -9,7 +9,7 @@ https://my.beekast.com/kast/68ded51cb45b1cc43da9c1ed/presentation
 
 Ce cours poursuit un double objectif pour les futurs juristes :
 
-- **Culture d'interface** : Développer une compréhension approfondie de l'Intelligence artificielle dans ses dimensions technique, sécuritaire et sociétale, ainsi que ses implications juridiques
+- **Culture d'interface** : Développer une compréhension de l'Intelligence artificielle pour l'insertion professionnelle. 
 - **Compétences techniques** : Fournir les bases pour comprendre et implémenter les outils informatiques utilisés dans la pratique professionnelle quotidienne
 
 ### Structure pédagogique
@@ -20,9 +20,7 @@ Ce cours poursuit un double objectif pour les futurs juristes :
 
 ---
 
-## Culture numérique pratique appliquée à l'intelligence artificielle
-
-### Introduction : Comprendre la chaîne numérique - de votre écran à l'IA
+## Module I - Données et traitement 
 
 ## I - L'interface utilisateur : documents et formats
 
@@ -87,7 +85,11 @@ Ce cours poursuit un double objectif pour les futurs juristes :
 
 ### D - Contraintes techniques : volume et poids des données
 
-## IV - Introduction à l'intelligence artificielle générative
+## Module 2 - Introduction à l'intelligence artificielle générative
+
+Durée: 09h
+
+Librement inspiré de https://www.ox.ac.uk/gen-ai
 
 ### A - Qu'est-ce que l'IA générative ?
 
@@ -109,11 +111,9 @@ L'IA générative désigne des technologies capables de créer du contenu nouvea
 
 #### Protection des données dans le contexte universitaire
 
-**Important** : La protection des données ne s'applique qu'aux comptes administrés par l'institution. Elle ne couvre pas les comptes gratuits ou personnels, même avec une adresse email institutionnelle.
-
 ### C - Cas d'usage de l'IA générative
 
-#### 1. Usages largement accessibles
+#### 1. Usages classiques
 
 Tâches réalisables avec la plupart des chatbots modernes :
 
@@ -121,6 +121,7 @@ Tâches réalisables avec la plupart des chatbots modernes :
 - Résumés de réunions, recherches ou articles
 - Scripts pour vidéos
 - Brainstorming et développement d'idées
+...
 
 #### 2. Génération multimédia
 
@@ -132,7 +133,7 @@ Tâches réalisables avec la plupart des chatbots modernes :
 
 - **Recherche** : Accès à des informations actualisées via le web
 - **Analyse de données** : Calculs et graphiques via interpréteur de code
-- **Assistants personnalisés** : Bots entraînés sur documents spécifiques
+- **Assistants personnalisés** : Bots entraînés sur documents spécifiques - cf. NotebookLM
 - **Conversation vocale et transcription** : Dialogue en direct ou transcription audio
 
 #### 4. Applications pour l'apprentissage et le développement
@@ -170,7 +171,7 @@ Commencez simplement. Ne donnez pas de tâches compliquées au début. Exemple d
 - **N'apprend pas de vos conversations** : Chaque chat est une nouvelle interaction (sauf activation manuelle de la mémoire)
 - **Ne peut pas rapporter avec précision ses propres processus** : L'IA ne peut pas expliquer comment elle fonctionne
 - **N'est pas un calculateur numérique précis** : Sans outils connectés
-- **Ne récupère pas d'informations en direct** : Sans connecteurs activés
+- **Ne récupère pas d'informations en direct** : Sans connecteurs activés (connaissance paramètrique)
 - **N'a pas une fenêtre de contexte illimitée** : Limitée en quantité d'information traitée
 
 #### Conséquences pratiques
@@ -203,8 +204,8 @@ Les outils d'IA utilisent des interfaces de chat intuitives. Vous interagissez e
 
 #### Deux principes contradictoires mais vrais
 
-1. **Le prompting n'a pas (beaucoup) d'importance** : Ne perdez pas de temps sur des "mots magiques" comme "s'il te plaît" ou offrir un "pourboire"
-2. **Le prompting est tout** : Pour des tâches complexes ou répétées, un prompt bien structuré est la clé
+1. **Le prompting n'a pas (beaucoup) d'importance** : Ne perdez pas de temps sur des "mots magiques" comme "s'il te plaît" ou offrir un "pourboire". 
+2. **Le prompting est tout** : Pour des tâches complexes ou répétées, un prompt bien structuré est la clé. 
 
 #### Principes clés du prompting
 
