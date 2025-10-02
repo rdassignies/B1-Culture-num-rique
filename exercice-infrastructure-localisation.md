@@ -1,6 +1,6 @@
 # Exercices Pratiques - Infrastructure et Localisation
 
-## Module III - Section C : Infrastructure et localisation
+## Module I/ III - Section C : Infrastructure et localisation
 
 ---
 
@@ -163,8 +163,7 @@ Remplissez ce tableau avec vos résultats réels :
 
 1. Copiez l'adresse IP finale obtenue à l'étape 2
 2. Allez sur un service de géolocalisation IP :
-   - [https://www.iplocation.net/](https://www.iplocation.net/)
-   - Ou [https://www.ip2location.com/](https://www.ip2location.com/)
+   - [https://www.ip2location.com/](https://www.ip2location.com/)
 3. Collez l'adresse IP et recherchez
 
 #### Notez les informations géographiques
@@ -217,8 +216,6 @@ La géolocalisation IP n'est pas toujours précise au mètre près :
 En vous basant sur la géolocalisation, estimez la distance entre vous et le serveur :
 
 Distance approximative : _________________ km
-
-Outil suggéré : [https://www.distance24.org/](https://www.distance24.org/)
 
 **Q2 : Vitesse de transmission**
 
