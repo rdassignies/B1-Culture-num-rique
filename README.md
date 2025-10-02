@@ -1,6 +1,6 @@
 # B1 Culture numérique et intelligence artificielle
 
-Syllabus cours B1
+https://my.beekast.com/kast/68ded51cb45b1cc43da9c1ed/presentation
 
 **Intervenant** : Raphaël d'Assignies
 **Durée totale** : 15h00
@@ -150,7 +150,7 @@ Tâches réalisables avec la plupart des chatbots modernes :
 
 #### Principes de base
 
-- **Les premières expériences peuvent être trompeuses** : Chacun aura une expérience différente
+
 - **Expérimenter** : Tester différents outils, prompts et cas d'usage
 - **Réfléchir à ses propres besoins** : Adapter l'IA à votre façon d'apprendre
 - **Les bénéfices sont personnels** : Ce qui est révolutionnaire pour l'un peut être mineur pour l'autre
