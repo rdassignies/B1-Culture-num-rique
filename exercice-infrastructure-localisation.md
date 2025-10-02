@@ -1,6 +1,6 @@
 # Exercices Pratiques - Infrastructure et Localisation
 
-## Module III - Section C : Infrastructure et localisation
+## Module I/ III - Section C : Infrastructure et localisation
 
 ---
 
