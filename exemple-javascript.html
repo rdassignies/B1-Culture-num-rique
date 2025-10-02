@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démonstration : HTML + JavaScript</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin-bottom: 30px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-top: 0;
+            border-left: 4px solid #667eea;
+            padding-left: 12px;
+        }
+
+        .code-source {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            overflow-x: auto;
+            line-height: 1.8;
+        }
+
+        .keyword { color: #569cd6; }
+        .string { color: #ce9178; }
+        .function { color: #dcdcaa; }
+        .comment { color: #6a9955; font-style: italic; }
+
+        .demo-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 18px;
+            margin: 20px 0;
+            transition: transform 0.3s ease;
+        }
+
+        .demo-box:hover {
+            transform: scale(1.05);
+        }
+
+        button {
+            background-color: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        button:hover {
+            background-color: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(118, 75, 162, 0.4);
+        }
+
+        .counter-display {
+            font-size: 48px;
+            font-weight: bold;
+            color: #667eea;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .note {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .note strong {
+            color: #856404;
+        }
+
+        .important {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #667eea;
+            border-radius: 5px;
+            width: 250px;
+            margin: 10px;
+        }
+
+        #message-output {
+            margin-top: 15px;
+            font-size: 20px;
+            color: #667eea;
+            font-weight: bold;
+            min-height: 30px;
+        }
+
+        .interactive-area {
+            background-color: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border: 2px dashed #667eea;
+        }
+
+        #clock {
+            font-size: 36px;
+            font-weight: bold;
+            color: #667eea;
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>⚡ Démonstration : Code Source, JavaScript et Interactivité</h1>
+
+    <div class="note full-width">
+        <strong>💡 Instruction :</strong>
+        Faites un clic droit → "Afficher le code source de la page" (Ctrl+U / Cmd+Option+U)
+        pour voir le code JavaScript qui rend cette page interactive !
+    </div>
+
+    <div class="container">
+        <!-- Exemple 1 : Bouton simple -->
+        <div class="section">
+            <h2>1. Code Source JavaScript</h2>
+            <div class="code-source">
+<span class="comment">// Fonction déclenchée au clic</span><br>
+<span class="keyword">function</span> <span class="function">afficherMessage</span>() {<br>
+&nbsp;&nbsp;<span class="function">alert</span>(<span class="string">'Bonjour depuis JavaScript!'</span>);<br>
+}
+            </div>
+            <div class="code-source" style="margin-top: 10px;">
+<span class="comment">&lt;!-- Bouton HTML --&gt;</span><br>
+&lt;<span class="keyword">button</span> <span class="function">onclick</span>=<span class="string">"afficherMessage()"</span>&gt;<br>
+&nbsp;&nbsp;Cliquez-moi !<br>
+&lt;/<span class="keyword">button</span>&gt;
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>1. Rendu Interactif</h2>
+            <div class="interactive-area">
+                <p>Cliquez sur le bouton pour déclencher le JavaScript :</p>
+                <button onclick="afficherMessage()">🔔 Cliquez-moi !</button>
+            </div>
+        </div>
+
+        <!-- Exemple 2 : Compteur -->
+        <div class="section">
+            <h2>2. Code Source (Compteur)</h2>
+            <div class="code-source">
+<span class="keyword">let</span> compteur = <span class="string">0</span>;<br>
+<br>
+<span class="keyword">function</span> <span class="function">incrementer</span>() {<br>
+&nbsp;&nbsp;compteur++;<br>
+&nbsp;&nbsp;<span class="keyword">document</span>.<span class="function">getElementById</span>(<span class="string">'compteur'</span>)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;.textContent = compteur;<br>
+}<br>
+<br>
+<span class="keyword">function</span> <span class="function">decrementer</span>() {<br>
+&nbsp;&nbsp;compteur--;<br>
+&nbsp;&nbsp;<span class="keyword">document</span>.<span class="function">getElementById</span>(<span class="string">'compteur'</span>)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;.textContent = compteur;<br>
+}
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>2. Rendu Interactif (Compteur)</h2>
+            <div class="interactive-area">
+                <div class="counter-display" id="compteur">0</div>
+                <button onclick="incrementer()">➕ Incrémenter</button>
+                <button onclick="decrementer()">➖ Décrémenter</button>
+                <button onclick="resetCompteur()">🔄 Réinitialiser</button>
+            </div>
+        </div>
+
+        <!-- Exemple 3 : Saisie utilisateur -->
+        <div class="section">
+            <h2>3. Code Source (Interaction)</h2>
+            <div class="code-source">
+<span class="keyword">function</span> <span class="function">afficherNom</span>() {<br>
+&nbsp;&nbsp;<span class="keyword">const</span> nom = <span class="keyword">document</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;.<span class="function">getElementById</span>(<span class="string">'nom-input'</span>).value;<br>
+&nbsp;&nbsp;<span class="keyword">document</span>.<span class="function">getElementById</span>(<span class="string">'message-output'</span>)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;.textContent = <span class="string">`Bonjour, ${nom} !`</span>;<br>
+}
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. Rendu Interactif (Saisie)</h2>
+            <div class="interactive-area">
+                <p>Entrez votre nom :</p>
+                <input type="text" id="nom-input" placeholder="Votre nom...">
+                <button onclick="afficherNom()">👋 Dire bonjour</button>
+                <div id="message-output"></div>
+            </div>
+        </div>
+
+        <!-- Exemple 4 : Horloge en temps réel -->
+        <div class="section">
+            <h2>4. Code Source (Horloge)</h2>
+            <div class="code-source">
+<span class="keyword">function</span> <span class="function">mettreAJourHorloge</span>() {<br>
+&nbsp;&nbsp;<span class="keyword">const</span> maintenant = <span class="keyword">new</span> <span class="function">Date</span>();<br>
+&nbsp;&nbsp;<span class="keyword">const</span> heures = maintenant.<span class="function">getHours</span>();<br>
+&nbsp;&nbsp;<span class="keyword">const</span> minutes = maintenant.<span class="function">getMinutes</span>();<br>
+&nbsp;&nbsp;<span class="keyword">const</span> secondes = maintenant.<span class="function">getSeconds</span>();<br>
+&nbsp;&nbsp;<br>
+&nbsp;&nbsp;<span class="keyword">document</span>.<span class="function">getElementById</span>(<span class="string">'clock'</span>)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;.textContent = <span class="string">`${heures}:${minutes}:${secondes}`</span>;<br>
+}<br>
+<br>
+<span class="comment">// Mise à jour chaque seconde</span><br>
+<span class="function">setInterval</span>(mettreAJourHorloge, <span class="string">1000</span>);
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>4. Rendu Interactif (Horloge)</h2>
+            <div class="interactive-area">
+                <p style="text-align: center; color: #667eea; font-weight: bold;">🕐 Horloge en temps réel :</p>
+                <div id="clock">00:00:00</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="important full-width">
+        <strong>🌐 Navigateur vs IA - Deux façons différentes de traiter cette page :</strong>
+        <ul style="margin: 10px 0 0 20px; line-height: 1.8;">
+            <li><strong>🌐 Le navigateur web :</strong>
+                <ul style="margin-top: 5px;">
+                    <li>Lit le code source (HTML, CSS, JavaScript)</li>
+                    <li><strong>Exécute</strong> le JavaScript en temps réel</li>
+                    <li>Affiche le rendu visuel interactif</li>
+                    <li>Réagit aux clics, met à jour l'horloge, exécute les calculs</li>
+                </ul>
+            </li>
+            <li><strong>🤖 Un modèle d'IA :</strong>
+                <ul style="margin-top: 5px;">
+                    <li>Lit également le code source (HTML, CSS, JavaScript)</li>
+                    <li>Comprend la logique et la structure du code</li>
+                    <li>Mais <strong>n'exécute pas</strong> le JavaScript</li>
+                    <li>Ne peut pas voir le rendu visuel, les animations, ou l'interactivité en action</li>
+                </ul>
+            </li>
+        </ul>
+        <p style="margin-top: 15px; font-size: 16px;">
+            <strong>📌 Différence clé :</strong> Code statique (source que l'IA et le navigateur lisent tous deux)
+            vs comportement dynamique (exécution que seul le navigateur effectue)
+        </p>
+    </div>
+
+    <div class="note full-width">
+        <strong>🎯 Points à retenir :</strong><br>
+        1. Le <strong>HTML</strong> définit la structure (le squelette)<br>
+        2. Le <strong>CSS</strong> définit l'apparence (les styles, couleurs, mise en page)<br>
+        3. Le <strong>JavaScript</strong> définit le comportement (interactivité, calculs, modifications dynamiques)<br>
+        4. Le <strong>navigateur web exécute</strong> ce code pour créer l'expérience interactive que vous voyez<br>
+        5. Une <strong>IA lit</strong> le code source mais ne peut pas l'exécuter ou voir le résultat visuel
+    </div>
+
+    <script>
+        // Exemple 1 : Alerte simple
+        function afficherMessage() {
+            alert('Bonjour depuis JavaScript! 👋\n\nCeci est une fenêtre générée par JavaScript.');
+        }
+
+        // Exemple 2 : Compteur
+        let compteur = 0;
+
+        function incrementer() {
+            compteur++;
+            document.getElementById('compteur').textContent = compteur;
+        }
+
+        function decrementer() {
+            compteur--;
+            document.getElementById('compteur').textContent = compteur;
+        }
+
+        function resetCompteur() {
+            compteur = 0;
+            document.getElementById('compteur').textContent = compteur;
+        }
+
+        // Exemple 3 : Interaction avec input
+        function afficherNom() {
+            const nom = document.getElementById('nom-input').value;
+            if (nom.trim() === '') {
+                document.getElementById('message-output').textContent = '⚠️ Veuillez entrer un nom';
+            } else {
+                document.getElementById('message-output').textContent = `👋 Bonjour, ${nom} !`;
+            }
+        }
+
+        // Exemple 4 : Horloge en temps réel
+        function mettreAJourHorloge() {
+            const maintenant = new Date();
+            const heures = String(maintenant.getHours()).padStart(2, '0');
+            const minutes = String(maintenant.getMinutes()).padStart(2, '0');
+            const secondes = String(maintenant.getSeconds()).padStart(2, '0');
+
+            document.getElementById('clock').textContent = `${heures}:${minutes}:${secondes}`;
+        }
+
+        // Démarrer l'horloge
+        mettreAJourHorloge(); // Affichage initial
+        setInterval(mettreAJourHorloge, 1000); // Mise à jour chaque seconde
+    </script>
+</body>
+</html>
