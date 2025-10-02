@@ -217,8 +217,6 @@ En vous basant sur la géolocalisation, estimez la distance entre vous et le ser
 
 Distance approximative : _________________ km
 
-Outil suggéré : [https://www.distance24.org/](https://www.distance24.org/)
-
 **Q2 : Vitesse de transmission**
 
 Si votre message met 20 ms pour arriver au serveur à 6000 km de distance :
