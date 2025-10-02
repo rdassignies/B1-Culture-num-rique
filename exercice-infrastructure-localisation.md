@@ -163,8 +163,7 @@ Remplissez ce tableau avec vos résultats réels :
 
 1. Copiez l'adresse IP finale obtenue à l'étape 2
 2. Allez sur un service de géolocalisation IP :
-   - [https://www.iplocation.net/](https://www.iplocation.net/)
-   - Ou [https://www.ip2location.com/](https://www.ip2location.com/)
+   - [https://www.ip2location.com/](https://www.ip2location.com/)
 3. Collez l'adresse IP et recherchez
 
 #### Notez les informations géographiques
