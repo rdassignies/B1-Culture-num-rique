@@ -1,4 +1,4 @@
-# Fiche Pratique - Rédaction Professionnelle avec Word
+# Fiche pratique - Rédaction professionnelle avec Word, Google Doc, OpenOffice, etc.
 
 ## Guide des bonnes pratiques pour la rédaction de documents juridiques et professionnels
 
