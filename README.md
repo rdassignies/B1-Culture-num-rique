@@ -66,6 +66,8 @@ Ce cours poursuit un double objectif pour les futurs juristes :
 - Le bruit dans les données
 - Recommandations pratiques
 
+**Ressource complémentaire** : [Recherche approfondie sur les biais dans les données médicales](https://chatgpt.com/share/68e8c294-5710-8003-9365-32d3c0f993fe)
+
 ## III - Les processus de traitement : traitement et gestion des données
 
 ### A - Entrée/sortie : la chaîne de transformation
