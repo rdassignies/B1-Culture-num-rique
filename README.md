@@ -1,6 +1,7 @@
 # B1 Culture numérique et intelligence artificielle
 
 https://my.beekast.com/kast/68ded51cb45b1cc43da9c1ed/presentation
+(code : 245212)
 
 **Intervenant** : Raphaël d'Assignies
 **Durée totale** : 15h00
