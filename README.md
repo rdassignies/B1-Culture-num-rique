@@ -234,3 +234,60 @@ Les outils d'IA utilisent des interfaces de chat intuitives. Vous interagissez e
 
 7. **Recommencez un nouveau chat**
    - Si les résultats ne sont pas satisfaisants, demandez un résumé et collez-le dans un nouveau chat
+   - 
+Principaux fournisseurs et leurs modèles
+🇺🇸 OpenAI (États-Unis)
+
+    Modèles : GPT-4, GPT-4o, GPT-4o mini, o1, o1-mini, GPT-3.5
+    Système : ChatGPT
+    Site officiel : https://openai.com
+
+🇺🇸 Anthropic (États-Unis)
+
+    Modèles : Claude 3.5 Sonnet, Claude 3.5 Haiku, Claude 3 Opus
+    Système : Claude.ai
+    Site officiel : https://anthropic.com
+
+🇺🇸 Google (États-Unis)
+
+    Modèles : Gemini 2.0, Gemini 1.5 Pro, Gemini 1.5 Flash
+    Système : Gemini
+    Site officiel : https://deepmind.google
+
+🇫🇷 Mistral AI (France)
+
+    Modèles : Mistral Large, Mistral Medium, Mistral Small, Codestral
+    Système : Le Chat
+    Site officiel : https://mistral.ai
+
+🇺🇸 Meta (États-Unis)
+
+    Modèles : Llama 3.3, Llama 3.2, Llama 3.1
+    Système : Modèles open-source (pas de chatbot officiel propriétaire)
+    Site officiel : https://llama.meta.com
+
+🇨🇳 DeepSeek (Chine)
+
+    Modèles : DeepSeek-V3, DeepSeek-R1
+    Système : DeepSeek Chat
+    Site officiel : https://deepseek.com
+
+🇨🇳 Alibaba (Chine)
+
+    Modèles : Qwen 2.5, Qwen-VL
+    Système : Qwen Chat
+    Site officiel : https://qwenlm.ai
+
+🇺🇸 xAI (États-Unis)
+
+    Modèles : Grok, Grok-2
+    Système : Grok (intégré à X/Twitter Premium)
+    Site officiel : https://x.ai
+
+🇺🇸 Cohere (États-Unis/Canada)
+
+    Modèles : Command R+, Command R
+    Système : API principalement (pas de chatbot grand public)
+    Site officiel : https://cohere.com
+
+
