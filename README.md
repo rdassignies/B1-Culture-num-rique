@@ -236,8 +236,33 @@ Les outils d'IA utilisent des interfaces de chat intuitives. Vous interagissez e
 
 7. **Recommencez un nouveau chat**
    - Si les résultats ne sont pas satisfaisants, demandez un résumé et collez-le dans un nouveau chat
-   - 
-Principaux fournisseurs et leurs modèles
+
+---
+
+## Devoirs pour la prochaine séance
+
+Pour la prochaine séance, vous devez maîtriser les compétences techniques suivantes :
+
+### 1. Manipulation de fichiers HTML
+- Savoir ouvrir et visualiser un fichier HTML dans un navigateur
+- Comprendre la structure de base d'un document HTML
+- Être capable d'inspecter le code source d'une page web (clic droit > "Afficher la source" ou F12)
+- Savoir enregistrer une page web au format HTML
+
+### 2. Captures d'écran et intégration dans ChatGPT
+- **Réaliser une capture d'écran** selon votre système :
+  - Windows : `Windows + Shift + S` ou outil Capture d'écran
+  - macOS : `Cmd + Shift + 4` (zone sélectionnée) ou `Cmd + Shift + 3` (écran complet)
+  - Linux : `Print Screen` ou outil de capture selon la distribution
+- **Insérer une image dans ChatGPT** :
+  - Glisser-déposer l'image directement dans la fenêtre de conversation
+  - Utiliser l'icône "📎" (trombone) pour joindre un fichier
+  - Coller directement une capture depuis le presse-papiers
+- Savoir formuler des questions pertinentes à partir d'une capture d'écran
+
+---
+
+## Principaux fournisseurs et leurs modèles
 🇺🇸 OpenAI (États-Unis)
 
     Modèles : GPT-4, GPT-4o, GPT-4o mini, o1, o1-mini, GPT-3.5
