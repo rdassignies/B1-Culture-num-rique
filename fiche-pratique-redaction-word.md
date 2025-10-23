@@ -1,5 +1,7 @@
 # Fiche pratique - Rédaction professionnelle avec Word, Google Doc, OpenOffice, etc.
 
+## Exemple de mise en page .doc https://docs.google.com/document/d/1VMvbzwsu_COI1xEqYr-GoeLmpmBIQbmXstmDYwbDnn8/edit?usp=sharing 
+
 ## Guide des bonnes pratiques pour la rédaction de documents juridiques et professionnels
 
 ---
