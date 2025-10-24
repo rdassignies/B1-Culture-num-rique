@@ -267,6 +267,9 @@ Pour la prochaine séance, vous devez maîtriser les compétences techniques sui
   - Collection communautaire de prompts système extraits des principaux chatbots IA
   - Inclut les instructions système de ChatGPT, Claude, Gemini, Perplexity, Grok et autres
   - Ressource utile pour comprendre le fonctionnement interne et les directives des assistants IA
+  - 
+   <img width="1335" height="719" alt="image" src="https://github.com/user-attachments/assets/45cd4084-de17-4e8d-b7ad-7843de3e795e" />
+
 
 ## Principaux fournisseurs et leurs modèles
 🇺🇸 OpenAI (États-Unis)
