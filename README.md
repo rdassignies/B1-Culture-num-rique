@@ -262,6 +262,12 @@ Pour la prochaine séance, vous devez maîtriser les compétences techniques sui
 
 ---
 
+## Transparence et analyse des systèmes IA
+- **System Prompts Leaks** : https://github.com/asgeirtj/system_prompts_leaks
+  - Collection communautaire de prompts système extraits des principaux chatbots IA
+  - Inclut les instructions système de ChatGPT, Claude, Gemini, Perplexity, Grok et autres
+  - Ressource utile pour comprendre le fonctionnement interne et les directives des assistants IA
+
 ## Principaux fournisseurs et leurs modèles
 🇺🇸 OpenAI (États-Unis)
 
